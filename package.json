@@ -1,0 +1,14 @@
+{
+  "name": "zombie-discord-game",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "fs-extra": "^11.1.1",
+    "uuid": "^9.0.1"
+  }
+}

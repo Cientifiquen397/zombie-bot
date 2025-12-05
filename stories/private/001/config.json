@@ -1,0 +1,36 @@
+{
+  "id": "001",
+  "title": "teste",
+  "visibility": "private",
+  "code": null,
+  "inventory": {
+    "enabled": false,
+    "items": []
+  },
+  "stats": {
+    "enabled": false,
+    "values": {}
+  },
+  "scenes": {
+    "1": {
+      "type": "normal",
+      "text": "bbb",
+      "choices": []
+    },
+    "start": {
+      "type": "normal",
+      "text": "Scène de départ vide.",
+      "choices": []
+    },
+    "scene 2": {
+      "type": "normal",
+      "text": "Scène vide.",
+      "choices": [
+        {
+          "text": "ff",
+          "next": "tt"
+        }
+      ]
+    }
+  }
+}
