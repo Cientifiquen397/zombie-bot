@@ -30,7 +30,12 @@ import {
 
 import fs from "fs";
 
-const config = JSON.parse(fs.readFileSync("./config.json", "utf-8"));
+const config = {
+  token: process.env.TOKEN,
+  clientId: process.env.CLIENT_ID,
+  guildId: process.env.GUILD_ID,
+};
+
 
 
 const client = new Client({
